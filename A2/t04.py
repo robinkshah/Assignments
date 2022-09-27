@@ -1,0 +1,23 @@
+num = input("Enter a number to display its multiplication table: ")
+num = int(num)
+num1 = num
+num2 = num*2
+num3 = num*3
+num4 = num*4
+num5 = num*5
+num6 = num*6
+num7 = num*7
+num8 = num*8
+num9 = num*9
+num10 = num*10
+
+print(f'''{num}\tx\t1\t=\t{num1}
+{num}\tx\t2\t=\t{num2}
+{num}\tx\t3\t=\t{num3}
+{num}\tx\t4\t=\t{num4}
+{num}\tx\t5\t=\t{num5}
+{num}\tx\t6\t=\t{num6}
+{num}\tx\t7\t=\t{num7}
+{num}\tx\t8\t=\t{num8}
+{num}\tx\t9\t=\t{num9}
+{num}\tx\t10\t=\t{num10}''')
